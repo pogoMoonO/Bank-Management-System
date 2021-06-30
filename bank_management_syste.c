@@ -1,17 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "login.h"
 
-void menu();
-
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
 
 int main()
 {
+    // , password[10] = "codewithc"
     char pass[10], password[10] = "codewithc"; // 下面是密碼
 
-    int i = 0;
-    printf("\n\n\t\tEnter the password to login:");
-    scanf("%s", pass);
+    // int i = 0;
+    login(pass, password);
+
+    scanf("%s", pass); // %s  announce string data type
+
+#ifdef _WIN32
     // cls : command similar clear in linux and mac
+    system("cls");
+#else
+    system("clear");
+#endif
+
     // if (strcmp(pass, password) == 0)
     // {
     //     printf("\n\nPassword Match!\nLOADING");
