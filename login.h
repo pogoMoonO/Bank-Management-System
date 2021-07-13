@@ -1,1 +1,1 @@
-int login(char a[10] , char b[10]);
+int login(char pass[10] , char password[10]);
