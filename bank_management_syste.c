@@ -167,20 +167,9 @@ void menu(void)
 int main()
 {
 
-    // FILE *fp;
-    // int sum, temp, f1;
-    // fp = fopen("password/passwd", "w");
-    // sum = 1;
-    // temp = 2;
-    // f1 = 0;
-    // fprintf(fp, "sum=  %d \n", sum);
-    // fprintf(fp, "temp = %d\n", temp);
-    // fprintf(fp, " f1 = %d \n", f1);
-    // fclose(fp);
+    char pass[10];
 
-    char pass[10], password[10] = "codewithc"; // 下面是密碼
-
-    int result = login(pass, password);
+    int result = login(pass);
 
     if (result == 0)
     {
