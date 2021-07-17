@@ -10,3 +10,8 @@ Thank you for using Code with C!
 $gcc -o hello hello.c
 
 ```
+
+## How to write header?
+
+
+Reference: http://ashinzzz.blogspot.com/2012/12/struct-declaration.html

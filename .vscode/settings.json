@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "login.h": "c",
+        "compare": "cpp",
+        "complex": "cpp",
+        "concepts": "cpp",
+        "type_traits": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "sstream": "cpp",
+        "unistd.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
