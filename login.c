@@ -25,7 +25,7 @@ int login(char pass[10])
 
         FcheckoutPassword = fopen("data/password.txt", "w");
 
-        fprintf(FcheckoutPassword, "%s ", &initPassword[10]);
+        fprintf(FcheckoutPassword, "%s", &initPassword[10]);
 
         fclose(FcheckoutPassword);
         printf("\nAccount created successfully!");
